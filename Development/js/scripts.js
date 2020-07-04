@@ -27,8 +27,8 @@ greet();
 let n = 4
 function isOdd(n) {
 if (n %2 == 0){
-    console.log("true")
+    return true
 }else if (n %2 == 1){
-    console.log("false");
+    return false
 }
 }
