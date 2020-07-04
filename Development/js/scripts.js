@@ -6,14 +6,18 @@
  * - name إن لم تستقبل اسم أو "Hello" تطبع
  * - name إن استقبلت اسم أو "Hello <name>" تطبع
  */
-let name = prompt(hello)
+
 function greet(name) {
-console.log("hello"+ name);
+    let message = "hello";
+    if(name){
+        message += name;
+console.log(message);
+}else{
+    console.log(message);
 }
-greet();
-function greet() {
-    console.log("hello");
-    }
+}
+greet("fatmah");
+
 greet();
 /*
  * isOdd(n) اسم الدالة
